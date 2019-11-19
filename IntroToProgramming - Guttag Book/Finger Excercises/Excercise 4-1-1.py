@@ -27,4 +27,7 @@ def isIn(x:str,y:str):
 
 print(isIn(a,b))
 
-#does this work?
+#faster code:
+
+def isIn(x:str, y:str):
+    return x in y or y in x 
